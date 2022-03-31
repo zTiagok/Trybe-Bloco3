@@ -7,10 +7,17 @@
 
     <style>
 
+        body
+        {
+
+          font-size: 16px;
+        }
+
         h1
         {
 
             font-size: 65px;
+            font-family: sans-serif;
             color: orange;
         }
 
@@ -22,22 +29,40 @@
 
         }
 
+        p
+        {
+          font-size: 3em;
+          font-weight: 600;
+        }
+
         #liOne
         {
 
-          color: yellow;
+          background-color: yellow;
+          color: black
         }
 
         #liTwo
         {
 
-          color: red;
+          background-color: red;
+          color: black
         }
 
         #liThree
         {
 
-          color: brown;
+          background-color: brown;
+          color: black
+        }
+
+        .list
+        {
+
+          font-style: oblique;
+          text-align: center;
+          line-height: 30px;
+          text-decoration: underline;
         }
 
     </style>
@@ -46,15 +71,15 @@
 
   <body>
 
-    <h1>Exercícios 3.2</h1>
+    <h1>Exercício 3.2</h1>
 
     <p class="greybackground"> Qual é a sua cor favorita? </p>
 
     <strong>
     <ul class="greybackground">
-      <li id="liOne">Amarelo</li>
-      <li id="liTwo">Vermelho</li>
-      <li id="liThree">Marrom</li>
+      <li id="liOne" class="list">Amarelo</li>
+      <li id="liTwo" class="list">Vermelho</li>
+      <li id="liThree" class="list">Marrom</li>
     </ul>
     </strong>
 
