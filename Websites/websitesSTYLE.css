@@ -1,0 +1,25 @@
+h1, p
+{
+
+    text-align: center;
+}
+
+.sites:hover
+{
+
+    background-color: black;
+    color: white
+}
+
+.sites:active
+{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+ul, ol
+{
+
+    list-style: none;
+}
